@@ -152,7 +152,7 @@ Jets detected only with the full profile (shallow jets) are 2.4 to 5.4 times mor
 
 ## Data Availability Statement
 
-IGRA v2 (Durre et al., 2006) is available from NOAA NCEI (https://doi.org/10.7289/V5X63K0Q); the Integrated Surface Database from https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database; ERA5 (Hersbach et al., 2020) from the Copernicus Climate Data Store (https://doi.org/10.24381/cds.bd0915c6); and CHIRPS v2.0 (Funk et al., 2015) from the Climate Hazards Center, through the IRI Data Library. The analysis code (steps 01–36 and the script `REPRODUCIR_JET.sh`, which regenerates all numbers, figures and this manuscript from the downloaded data) and the intermediate files will be released and archived with a DOI at submission.
+IGRA v2 (Durre et al., 2006) is available from NOAA NCEI (https://doi.org/10.7289/V5X63K0Q); the Integrated Surface Database from https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database; ERA5 (Hersbach et al., 2020) from the Copernicus Climate Data Store (https://doi.org/10.24381/cds.bd0915c6); and CHIRPS v2.0 (Funk et al., 2015) from the Climate Hazards Center, through the IRI Data Library. The analysis code (steps 01–37 and the script `REPRODUCIR_JET.sh`, which regenerates all numbers, figures and this manuscript from the downloaded data) and the intermediate results are archived on Zenodo (https://doi.org/10.5281/zenodo.23196720) and available at https://github.com/juannesis1/jet-sallj-radiosondas.
 
 ## Acknowledgments
 

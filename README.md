@@ -23,4 +23,6 @@ run used in the paper.
 - `figuras/jet/`: figures.
 
 ## License and citation
+Archived release: https://doi.org/10.5281/zenodo.23196720
+
 Code under the MIT license (`LICENSE`). Please cite the archived release (see `CITATION.cff`).
