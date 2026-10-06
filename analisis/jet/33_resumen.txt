@@ -1,0 +1,5 @@
+Sondeos USAF con y sin 925 hPa reportado, dentro de la misma estación y temporada: (con − sin)
+  19 estaciones-temporada comparables; 8 estaciones
+  rapidez a 850 hPa (m/s)                    +1.14 [+0.24,+1.73]  (19 estaciones-temporada, 1994–2005)
+  rapidez a 700 hPa (m/s)                    +0.70 [-0.06,+1.35]  (19 estaciones-temporada, 1994–2005)
+  frecuencia de jet de niveles fijos (pp)    +0.81 [-0.14,+2.27]  (19 estaciones-temporada, 1994–2005)

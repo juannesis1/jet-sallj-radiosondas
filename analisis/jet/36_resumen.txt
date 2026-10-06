@@ -1,0 +1,36 @@
+(a) Tendencia del perfil completo (pp/década) con efectos de fuente en ventanas fijas [IC 95 %, 1000 réplicas]
+  1980-2025 10 estaciones   crudo +1.73 [+0.73,+2.52] | ajustado +1.49 [+0.48,+2.29]  (n 53774)
+  1980-2025 sin Santa Rosa  crudo +1.29 [+0.12,+2.15] | ajustado +1.11 [-0.08,+1.99]  (n 46905)
+  1993-2025 10 estaciones   crudo +2.46 [+1.22,+3.42] | ajustado +2.22 [+0.97,+3.20]  (n 43233)
+  1993-2025 sin Santa Rosa  crudo +1.66 [+0.15,+2.81] | ajustado +1.43 [-0.05,+2.57]  (n 38208)
+  2001-2025 10 estaciones   crudo +1.90 [+0.62,+3.02] | ajustado +1.73 [+0.44,+2.88]  (n 35424)
+  2001-2025 sin Santa Rosa  crudo +1.06 [-0.58,+2.38] | ajustado +0.86 [-0.77,+2.22]  (n 31631)
+  2006-2025 10 estaciones   crudo +0.80 [-0.86,+2.34] | ajustado +0.55 [-1.06,+2.09]  (n 28329)
+  2006-2025 sin Santa Rosa  crudo -0.23 [-2.45,+1.77] | ajustado -0.52 [-2.75,+1.40]  (n 25414)
+
+(b) Perfil de la fecha del escalón argentino (temporada t0): AIC y escalón (pp), con efecto de fuente
+  t0 = 1990: ΔAIC   20.7; escalón -3.7 pp; tendencia +2.25 pp/déc
+  t0 = 1991: ΔAIC   19.1; escalón -3.8 pp; tendencia +2.26 pp/déc
+  t0 = 1992: ΔAIC   21.1; escalón -3.6 pp; tendencia +2.23 pp/déc
+  t0 = 1993: ΔAIC   24.9; escalón -3.3 pp; tendencia +2.19 pp/déc
+  t0 = 1994: ΔAIC   24.7; escalón -3.3 pp; tendencia +2.18 pp/déc
+  t0 = 1995: ΔAIC   36.4; escalón -2.3 pp; tendencia +2.05 pp/déc
+  t0 = 1996: ΔAIC   47.1; escalón -1.0 pp; tendencia +1.85 pp/déc
+  t0 = 1997: ΔAIC   48.4; escalón +0.6 pp; tendencia +1.66 pp/déc
+  t0 = 1998: ΔAIC   42.7; escalón +1.7 pp; tendencia +1.55 pp/déc
+  t0 = 1999: ΔAIC   38.1; escalón +2.2 pp; tendencia +1.51 pp/déc
+  t0 = 2000: ΔAIC   31.2; escalón +2.8 pp; tendencia +1.48 pp/déc
+  t0 = 2001: ΔAIC   15.3; escalón +3.8 pp; tendencia +1.36 pp/déc
+  t0 = 2002: ΔAIC    3.7; escalón +4.2 pp; tendencia +1.24 pp/déc
+  t0 = 2003: ΔAIC    0.0; escalón +4.3 pp; tendencia +1.15 pp/déc
+  t0 = 2004: ΔAIC    1.4; escalón +4.1 pp; tendencia +1.08 pp/déc
+  t0 = 2005: ΔAIC    6.0; escalón +3.9 pp; tendencia +1.03 pp/déc
+  t0 = 2006: ΔAIC   24.8; escalón +2.9 pp; tendencia +1.25 pp/déc
+  t0 = 2007: ΔAIC   26.1; escalón +2.9 pp; tendencia +1.31 pp/déc
+  t0 = 2008: ΔAIC   37.0; escalón +2.1 pp; tendencia +1.40 pp/déc
+  t0 = 2009: ΔAIC   39.4; escalón +1.8 pp; tendencia +1.41 pp/déc
+  t0 = 2010: ΔAIC   38.7; escalón +1.9 pp; tendencia +1.38 pp/déc
+  t0 = 2011: ΔAIC   39.5; escalón +1.8 pp; tendencia +1.38 pp/déc
+  t0 = 2012: ΔAIC   36.8; escalón +2.1 pp; tendencia +1.33 pp/déc
+  Fecha preferida: 2003 (escalón +4.3 pp, tendencia +1.15); fechas con ΔAIC < 2: [2003, 2004]
+  Sin escalón: tendencia +1.73 pp/déc

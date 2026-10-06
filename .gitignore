@@ -1,0 +1,9 @@
+data/*
+!data/.gitkeep
+!data/igra_sa/
+data/igra_sa/*
+!data/igra_sa/estaciones.txt
+.venv/
+__pycache__/
+*.part*
+.DS_Store

@@ -1,0 +1,57 @@
+(a) Coeficientes de fuente (pp, respecto de GTS) del modelo agrupado de perfil completo, 1980-2025, efectos de mes y estación, con tendencia
+    (referencia interna del modelo: ncdc-gts); respecto de GTS: ncdc6314 -6.1, ncdc6316 -7.4, ncdc6322 -4.3, ncdc6324 +10.6, usaf-ds3 -2.1
+    Solapamiento directo (paso 19): USAF − GTS = +2.7 pp [IC 90 % +0.4,+5.1]; el modelo implica USAF − GTS = -2.1 pp (ver arriba).
+
+(b) Tendencias del perfil completo (pp/década) por era homogénea [IC 95 %, bootstrap de temporadas, 500 réplicas]
+    USAF, temporadas 1980-2006   10 estaciones crudo     +0.60 [-1.91,+2.03]  (n 16086)
+    USAF, temporadas 1980-2006   10 estaciones ajustado  +0.12 [-2.42,+1.62]  (n 16086)
+    USAF, temporadas 1980-2006   Argentina     crudo     +0.57 [-3.17,+2.45]  (n 10812)
+    USAF, temporadas 1980-2006   Argentina     ajustado  -0.13 [-3.71,+1.73]  (n 10812)
+    USAF, temporadas 1980-2006   Brasil        crudo     +0.69 [-0.57,+2.54]  (n 5274)
+    USAF, temporadas 1980-2006   Brasil        ajustado  +0.97 [-0.39,+2.84]  (n 5274)
+    GTS, temporadas 2001-2025    10 estaciones crudo     +1.93 [+0.62,+3.07]  (n 33107)
+    GTS, temporadas 2001-2025    10 estaciones ajustado  +1.77 [+0.43,+2.92]  (n 33107)
+    GTS, temporadas 2001-2025    Argentina     crudo     +2.27 [+0.91,+3.60]  (n 14082)
+    GTS, temporadas 2001-2025    Argentina     ajustado  +2.29 [+0.95,+3.58]  (n 14082)
+    GTS, temporadas 2001-2025    Brasil        crudo     +1.66 [+0.15,+3.04]  (n 19025)
+    GTS, temporadas 2001-2025    Brasil        ajustado  +1.36 [-0.24,+2.77]  (n 19025)
+    GTS, temporadas 2006-2025    10 estaciones crudo     +0.78 [-0.73,+2.39]  (n 27411)
+    GTS, temporadas 2006-2025    10 estaciones ajustado  +0.54 [-0.92,+2.09]  (n 27411)
+    GTS, temporadas 2006-2025    Argentina     crudo     +1.33 [-0.40,+2.99]  (n 11424)
+    GTS, temporadas 2006-2025    Argentina     ajustado  +1.33 [-0.35,+3.00]  (n 11424)
+    GTS, temporadas 2006-2025    Brasil        crudo     +0.36 [-1.76,+2.32]  (n 15987)
+    GTS, temporadas 2006-2025    Brasil        ajustado  -0.07 [-2.15,+1.81]  (n 15987)
+
+(b2) GTS, temporadas 2001-2025, por país sin Santa Rosa (crudo / ajustado) [IC 95 %, 300 réplicas]
+    Argentina sin Santa Rosa   crudo     +0.11 [-1.89,+2.24]  (n 10567)
+    Argentina sin Santa Rosa   ajustado  +0.12 [-1.87,+2.21]  (n 10567)
+    Brasil                     crudo     +1.66 [+0.15,+3.04]  (n 19025)
+    Brasil                     ajustado  +1.36 [-0.24,+2.77]  (n 19025)
+
+(c) Escalón argentino: cambio entre las 8 temporadas antes y las 8 después de cada fecha (sin solapamiento), media de estaciones; DiD = Argentina − Brasil, con IC 95 % por bootstrap de temporadas
+    Regla de inclusión única: estaciones con ≥ 4 temporadas en cada ventana de 8.
+    fin de 1997  Argentina +6.6 (n 4), Brasil +1.1 (n 4); DiD +5.5 pp [+3.0,+12.9]
+    feb 2000     Argentina +8.5 (n 4), Brasil +1.2 (n 4); DiD +7.2 pp [+4.3,+11.2]
+    nov 2002     Argentina +8.8 (n 4), Brasil +2.7 (n 5); DiD +6.1 pp [+2.7,+8.8]
+    Modelo con escalón argentino (jet ~ mes + estación + tendencia + Argentina × 1[temporada ≥ t0]); coeficiente del escalón (pp) y de la tendencia (pp/déc):
+    t0 = 1998 sin fuente tendencia +2.01 [+1.52,+2.65]; escalón argentino +2.3 [-0.8,+5.0]
+    t0 = 1998 con fuente tendencia +1.55 [+0.47,+2.43]; escalón argentino +1.7 [-0.8,+4.2]
+    t0 = 2000 sin fuente tendencia +1.78 [+1.28,+2.43]; escalón argentino +3.4 [+0.8,+5.7]
+    t0 = 2000 con fuente tendencia +1.48 [+0.46,+2.24]; escalón argentino +2.8 [+0.3,+4.9]
+    t0 = 2003 sin fuente tendencia +1.47 [+1.09,+1.94]; escalón argentino +4.7 [+2.6,+6.9]
+    t0 = 2003 con fuente tendencia +1.15 [+0.32,+1.85]; escalón argentino +4.3 [+2.2,+6.3]
+
+(c2) DiD con efectos de mes, estación y fuente (ventana de 8 temporadas a cada lado; coeficiente Argentina × posterior, pp) [IC 95 %, 500 réplicas] y p por permutación (todas las asignaciones de 4 estaciones entre las 9 con datos suficientes, sin ajustar por fuente)
+    fin de 1997  DiD con fuente +4.9 [+1.3,+7.6]; sin fuente (media de estaciones) +5.5, p por permutación 0.086 (70 asignaciones); sin Córdoba (sin quiebre en 925 hPa) +7.0
+    feb 2000     DiD con fuente +7.1 [+4.2,+9.2]; sin fuente (media de estaciones) +7.2, p por permutación 0.029 (70 asignaciones); sin Córdoba (sin quiebre en 925 hPa) +8.4
+    nov 2002     DiD con fuente +5.5 [+2.0,+8.8]; sin fuente (media de estaciones) +6.1, p por permutación 0.008 (126 asignaciones); sin Córdoba (sin quiebre en 925 hPa) +5.4
+
+(d) Tendencia agrupada del perfil completo (pp/década) por país, 1980-2025 [IC 95 %]
+    Argentina (4 est.)  crudo     sin fuente +2.73 [+2.15,+3.55]
+    Argentina (4 est.)  crudo     con fuente +1.84 [+0.48,+2.97]
+    Argentina (4 est.)  ajustado  sin fuente +2.17 [+1.53,+2.99]
+    Argentina (4 est.)  ajustado  con fuente +1.56 [+0.37,+2.72]
+    Brasil (6 est.)     crudo     sin fuente +1.97 [+1.48,+2.61]
+    Brasil (6 est.)     crudo     con fuente +1.55 [+0.61,+2.43]
+    Brasil (6 est.)     ajustado  sin fuente +1.74 [+1.23,+2.36]
+    Brasil (6 est.)     ajustado  con fuente +1.39 [+0.44,+2.36]

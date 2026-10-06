@@ -1,0 +1,13 @@
+Viento geostrófico del plano de SLP de 4 aeropuertos, 12 UTC oct-mar
+  Días con las 4 estaciones: 1980-1984: 90 %, 1985-1989: 84 %, 1990-1994: 79 %, 1995-1999: 90 %, 2000-2004: 90 %, 2005-2009: 94 %, 2010-2014: 98 %, 2015-2019: 98 %, 2020-2024: 100 %
+  Frecuencia media de flujo geostrófico del norte ≥ 4 m/s: 35.2 % de los días; media +1.13 m/s
+  Tendencia (pp/década y m/s/década):
+    desde 1980 fuerte : -1.99 pp/déc (p MK-HR 0.04, 46 temporadas)
+    desde 1980 media  : -0.35 m/s/déc (p MK-HR 0.01, 46 temporadas)
+    desde 1993 fuerte : -0.60 pp/déc (p MK-HR 0.74, 33 temporadas)
+    desde 1993 media  : -0.22 m/s/déc (p MK-HR 0.53, 33 temporadas)
+  Antes → después de los saltos de los sondeos (8 temporadas a cada lado), % de días con flujo del norte ≥ 4 m/s:
+    Resistencia / Ezeiza (dic 1997)    31.9 → 38.2
+    Santa Rosa (feb 2000)              29.3 → 41.2
+    Córdoba (nov 2002)                 32.4 → 41.6
+  Sanidad: flujo geostrófico del norte medio en días con jet fijo observado en algún sondeo +4.3 m/s (n 733) frente a +0.8 m/s sin jet (n 6544)

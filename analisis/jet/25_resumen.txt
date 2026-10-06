@@ -1,0 +1,36 @@
+(a) Tendencias por estación (Fig. 1, 22 estaciones): significativas con p < 0.05 sin corregir y con FDR (q = 0.10)
+  perfil completo  sin corregir 13; con FDR 13 (p máx. incluido 0.047)
+  niveles fijos    sin corregir  3; con FDR  0 (p máx. incluido nan)
+
+(b) Colinealidad año ~ mes + estación + fuente (10 estaciones, 53774 sondeos): R² = 0.695, VIF = 3.3
+    Temporadas por estación con ≥ 20 sondeos de dos fuentes a la vez (superposición):
+      ARM00087155: 10 temporadas superpuestas de 46; fuentes {'ncdc-gts': np.int64(3693), 'usaf-ds3': np.int64(3012), 'ncdc6316': np.int64(190), 'ncdc6322': np.int64(121)}
+      ARM00087344: 12 temporadas superpuestas de 45; fuentes {'ncdc-gts': np.int64(3515), 'usaf-ds3': np.int64(2383), 'ncdc6316': np.int64(326), 'ncdc6322': np.int64(271)}
+      ARM00087576: 9 temporadas superpuestas de 43; fuentes {'ncdc-gts': np.int64(3614), 'usaf-ds3': np.int64(2955), 'ncdc6322': np.int64(577), 'ncdc6316': np.int64(153)}
+      ARM00087623: 12 temporadas superpuestas de 46; fuentes {'ncdc-gts': np.int64(3600), 'usaf-ds3': np.int64(2462), 'ncdc6316': np.int64(389), 'ncdc6322': np.int64(347)}
+      BRM00082824: 5 temporadas superpuestas de 35; fuentes {'ncdc-gts': np.int64(3659), 'usaf-ds3': np.int64(713), 'ncdc6322': np.int64(274), 'ncdc6314': np.int64(81)}
+      BRM00083208: 6 temporadas superpuestas de 42; fuentes {'ncdc-gts': np.int64(3439), 'usaf-ds3': np.int64(1066), 'ncdc6322': np.int64(196), 'ncdc6314': np.int64(58)}
+      BRM00083362: 4 temporadas superpuestas de 25; fuentes {'ncdc-gts': np.int64(3031), 'usaf-ds3': np.int64(498), 'ncdc6314': np.int64(21)}
+      BRM00083612: 5 temporadas superpuestas de 44; fuentes {'ncdc-gts': np.int64(3195), 'usaf-ds3': np.int64(1999), 'ncdc6322': np.int64(290), 'ncdc6314': np.int64(80)}
+      BRM00083827: 3 temporadas superpuestas de 33; fuentes {'ncdc-gts': np.int64(3545), 'usaf-ds3': np.int64(803), 'ncdc6314': np.int64(70)}
+      BRM00083928: 2 temporadas superpuestas de 20; fuentes {'ncdc-gts': np.int64(2579), 'usaf-ds3': np.int64(199), 'ncdc6314': np.int64(12)}
+
+(c) Índices de jet (media de anomalías de 7 estaciones; series sin tendencia lineal) vs modos climáticos; p con tamaño efectivo de muestra N_eff = N (1 − r1x r1y) / (1 + r1x r1y) (r1 = autocorrelación de orden 1)
+  niveles fijos   oct-dic  ONI                    r = +0.35 (p 0.018; N 46, N_eff 46, p efectivo 0.018)  significativa con FDR (6 pruebas, p efectivo)
+  niveles fijos   oct-dic  PDO                    r = +0.34 (p 0.022; N 46, N_eff 39, p efectivo 0.036)  significativa con FDR (6 pruebas, p efectivo)
+  niveles fijos   oct-dic  SAM                    r = -0.24 (p 0.116; N 46, N_eff 46, p efectivo 0.116)  no significativa con FDR
+  niveles fijos   oct-mar  ONI (NDJ-JFM medio)    r = +0.36 (p 0.015; N 46, N_eff 46, p efectivo 0.015)  significativa con FDR (6 pruebas, p efectivo)
+  niveles fijos   oct-mar  PDO                    r = +0.23 (p 0.132; N 46, N_eff 37, p efectivo 0.182)  no significativa con FDR
+  niveles fijos   oct-mar  SAM                    r = -0.21 (p 0.168; N 46, N_eff 46, p efectivo 0.168)  no significativa con FDR
+  perfil completo oct-dic  ONI                    r = +0.23 (p 0.127; N 45, N_eff 45, p efectivo 0.127)
+  perfil completo oct-dic  PDO                    r = +0.36 (p 0.014; N 45, N_eff 35, p efectivo 0.031)
+  perfil completo oct-dic  SAM                    r = -0.18 (p 0.241; N 45, N_eff 45, p efectivo 0.241)
+  perfil completo oct-mar  ONI (NDJ-JFM medio)    r = +0.30 (p 0.046; N 45, N_eff 45, p efectivo 0.046)
+  perfil completo oct-mar  PDO                    r = +0.22 (p 0.143; N 45, N_eff 30, p efectivo 0.243)
+  perfil completo oct-mar  SAM                    r = -0.27 (p 0.076; N 45, N_eff 45, p efectivo 0.076)
+
+(d) Modelo logístico agrupado de jet con niveles fijos (efectos de mes, estación y fuente): razón de chances por década [IC 90 %]
+  desde 1980 crudo              OR/déc = 1.00 [0.90,1.07]
+  desde 1980 ajustado con ERA5  OR/déc = 1.05 [0.95,1.13]
+  desde 1993 crudo              OR/déc = 1.11 [0.98,1.22]
+  desde 1993 ajustado con ERA5  OR/déc = 1.14 [1.02,1.28]

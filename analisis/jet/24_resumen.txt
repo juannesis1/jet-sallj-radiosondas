@@ -1,0 +1,66 @@
+Perfil completo: jets crudos y con el viento ajustado por los saltos respecto de ERA5/referencia (paso 22)
+  frecuencia media (%), 1980-2025: crudo 12.4, ajustado 12.9
+  Control del número de niveles: 'nm' = niveles MANDATORIOS (1000, 925, 850, 700, 500 hPa) reportados en los 250 hPa inferiores, fijos por reglamento pero NO exógenos al viento (reportar 925 hPa depende del viento de 850 hPa, paso 33): no son un control válido; 'nb' = todos los niveles reportados (incluye los significativos, que se insertan donde el perfil tiene rasgos y por eso es endógeno al jet: se muestra sólo para comparar).
+
+Tendencia agrupada (10 estaciones), pp/década [IC 95 % por bootstrap de temporadas, 1000 réplicas]
+  desde 1980 crudo     sólo mes y estación                  +2.44 [+1.98,+3.01]  (+20 %/déc)
+  desde 1980 crudo     + fuente                             +1.73 [+0.75,+2.50]  (+14 %/déc)
+  desde 1980 crudo     + fuente + niveles mandatorios       +2.29 [+1.33,+3.11]  (+18 %/déc)
+  desde 1980 crudo     + fuente + nº de niveles (endógeno)  +0.91 [-0.08,+1.71]  (+7 %/déc)
+  desde 1980 ajustado  sólo mes y estación                  +2.01 [+1.54,+2.56]  (+16 %/déc)
+  desde 1980 ajustado  + fuente                             +1.49 [+0.52,+2.27]  (+12 %/déc)
+  desde 1980 ajustado  + fuente + niveles mandatorios       +2.08 [+1.14,+2.92]  (+16 %/déc)
+  desde 1980 ajustado  + fuente + nº de niveles (endógeno)  +0.60 [-0.47,+1.44]  (+5 %/déc)
+  desde 1993 crudo     sólo mes y estación                  +3.25 [+2.47,+4.17]  (+25 %/déc)
+  desde 1993 crudo     + fuente                             +2.46 [+1.40,+3.52]  (+19 %/déc)
+  desde 1993 crudo     + fuente + niveles mandatorios       +2.42 [+1.39,+3.49]  (+19 %/déc)
+  desde 1993 crudo     + fuente + nº de niveles (endógeno)  +2.11 [+1.19,+3.04]  (+17 %/déc)
+  desde 1993 ajustado  sólo mes y estación                  +2.83 [+2.12,+3.68]  (+22 %/déc)
+  desde 1993 ajustado  + fuente                             +2.22 [+1.14,+3.26]  (+17 %/déc)
+  desde 1993 ajustado  + fuente + niveles mandatorios       +2.18 [+1.16,+3.20]  (+17 %/déc)
+  desde 1993 ajustado  + fuente + nº de niveles (endógeno)  +1.86 [+0.96,+2.78]  (+14 %/déc)
+
+Muestras restringidas (1980-2025), pp/década [IC 95 %]:
+  sólo sondeos con ≥ 5 niveles en 0-250 hPa               crudo     sólo mes y estación  +2.56 [+1.98,+3.27]  (n 39334, +19 %/déc)
+  sólo sondeos con ≥ 5 niveles en 0-250 hPa               crudo     + fuente             +1.44 [+0.39,+2.28]  (n 39334, +11 %/déc)
+  sólo sondeos con ≥ 5 niveles en 0-250 hPa               ajustado  sólo mes y estación  +1.98 [+1.36,+2.65]  (n 39334, +14 %/déc)
+  sólo sondeos con ≥ 5 niveles en 0-250 hPa               ajustado  + fuente             +1.07 [-0.00,+1.94]  (n 39334, +8 %/déc)
+  sólo archivos USAF + GTS (excluye NCDC 6314/6316/6322)  crudo     sólo mes y estación  +2.37 [+1.89,+2.97]  (n 49960, +19 %/déc)
+  sólo archivos USAF + GTS (excluye NCDC 6314/6316/6322)  crudo     + fuente             +1.74 [+0.76,+2.53]  (n 49960, +14 %/déc)
+  sólo archivos USAF + GTS (excluye NCDC 6314/6316/6322)  ajustado  sólo mes y estación  +1.91 [+1.44,+2.48]  (n 49960, +15 %/déc)
+  sólo archivos USAF + GTS (excluye NCDC 6314/6316/6322)  ajustado  + fuente             +1.49 [+0.53,+2.27]  (n 49960, +11 %/déc)
+
+Incertidumbre del ajuste propagada al perfil completo (60 réplicas; cortes ±12 meses, error de la media de cada tramo), + fuente:
+  desde 1980: DE por perturbación 0.03 pp/déc (rango +1.43 a +1.55); IC 95 % total [+0.52,+2.28]
+  desde 1993: DE por perturbación 0.03 pp/déc (rango +2.16 a +2.27); IC 95 % total [+1.14,+3.27]
+
+Dejando una estación afuera (1980-2025, + fuente, viento ajustado), pp/década [IC 95 %, 200 réplicas]:
+  sin Resistencia   +1.67 [+0.78,+2.40]
+  sin Córdoba       +1.25 [+0.15,+2.05]
+  sin Santa Rosa    +1.11 [-0.08,+1.96]
+  sin Ezeiza        +1.86 [+0.80,+2.66]
+  sin Foz           +1.43 [+0.35,+2.12]
+  sin Campo Grande  +1.30 [+0.11,+2.11]
+  sin Uruguaiana    +1.39 [+0.25,+2.24]
+  sin Cuiabá        +1.57 [+0.42,+2.47]
+  sin Vilhena       +1.65 [+0.48,+2.56]
+  sin Porto Velho   +1.64 [+0.48,+2.47]
+  rango de las estimaciones puntuales: +1.11 a +1.86
+
+Control de la hora de lanzamiento (2001-2025, 30865 sondeos con hora): tendencia agrupada del perfil completo ajustado + fuente
+  sin control de hora                                +1.29 [-0.17,+2.44]
+  con control de lanzamiento tardío (≥ 11:30 UTC)    +1.46 [-0.04,+2.55]
+
+Por estación (1980-2025, sólo mes): crudo → ajustado, pp/década
+  Resistencia   +2.55 → +2.09   frecuencia 15.7 → 16.3 %
+  Córdoba       +2.59 → +2.59   frecuencia 16.1 → 16.1 %
+  Santa Rosa    +4.63 → +3.71   frecuencia 19.3 → 20.2 %
+  Ezeiza        +1.12 → +0.25   frecuencia 9.6 → 10.6 %
+  Foz           +4.41 → +3.02   frecuencia 20.4 → 21.9 %
+  Campo Grande  +2.73 → +2.70   frecuencia 9.7 → 9.7 %
+  Uruguaiana    +1.51 → +1.51   frecuencia 11.2 → 11.2 %
+  Cuiabá        +1.24 → +1.24   frecuencia 7.7 → 7.7 %
+  Vilhena       +0.87 → +0.87   frecuencia 5.5 → 5.5 %
+  Porto Velho   -0.04 → -0.04   frecuencia 3.1 → 3.1 %
+
+Era GTS de alta resolución (2006-2025, fuente ncdc-gts): crudo +0.78 [-0.95,+2.37], ajustado +0.54

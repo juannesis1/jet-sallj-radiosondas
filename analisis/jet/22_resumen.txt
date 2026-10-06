@@ -1,0 +1,77 @@
+Homogeneización de los vientos de 925, 850 y 700 hPa con ERA5 (sondeo − ERA5, anomalías mensuales)
+Quiebres de la serie sondeo − ERA5 de cada estación (sin referencia: una referencia de estaciones sin quiebres sólo existe desde ~1996 y vuelve el método ciego a los años 80). Cada quiebre se contrasta con el cambio medio del sondeo − ERA5 en las estaciones del OTRO país (Brasil para las argentinas y viceversa) en los seis años anteriores y posteriores: si ese control se mueve en el mismo sentido y al menos la mitad, el quiebre se considera regional (deriva de ERA5 o clima) y no se ajusta.
+  Familia de 49 nodos probados (todas las series y niveles, con los que no pasan); 23 con p < 0.05; umbral de Benjamini-Hochberg (q = 0.10, tope 0.05) p ≤ 0.0390; permutación de bloques de 3 años.
+  18 cortes aceptados por BH sobre la familia completa; estabilidad media con 5 semillas y 300 permutaciones: 100 %; cortes con estabilidad ≥ 80 %: 18
+  Resistencia   925 hPa 1997-11: paso +1.12 m/s; control -0.05 (n 2) → se ajusta; p 0.012; estabilidad 100 %; BH sí
+  Santa Rosa    925 hPa 2000-02: paso +0.78 m/s; control +0.01 (n 3) → se ajusta; p 0.015; estabilidad 100 %; BH sí
+  Ezeiza        925 hPa 1997-10: paso +0.80 m/s; control +0.01 (n 2) → se ajusta; p 0.008; estabilidad 100 %; BH sí
+  Foz           925 hPa 2010-02: paso +0.83 m/s; control -0.01 (n 4) → se ajusta; p 0.001; estabilidad 100 %; BH sí
+  Campo Grande  925 hPa 2003-11: paso +0.54 m/s; control +0.36 (n 4) → regional, no se ajusta; p 0.034; estabilidad 100 %; BH sí
+  Resistencia   850 hPa 1990-01: paso -1.19 m/s; control +0.35 (n 2) → se ajusta; p 0.001; estabilidad 100 %; BH sí
+  Resistencia   850 hPa 1998-01: paso +0.74 m/s; control +0.17 (n 4) → se ajusta; p 0.026; estabilidad 100 %; BH sí
+  Resistencia   850 hPa 2018-11: paso -0.29 m/s; control -0.03 (n 6) → se ajusta; p 0.037; estabilidad 100 %; BH sí
+  Santa Rosa    850 hPa 1991-10: paso -1.00 m/s; control +0.13 (n 2) → se ajusta; p 0.007; estabilidad 100 %; BH sí
+  Santa Rosa    850 hPa 1997-12: paso +0.44 m/s; control +0.17 (n 4) → se ajusta; p 0.008; estabilidad 100 %; BH sí
+  Santa Rosa    850 hPa 2017-12: paso -0.23 m/s; control -0.03 (n 6) → se ajusta; p 0.010; estabilidad 100 %; BH sí
+  Ezeiza        850 hPa 1992-10: paso -0.61 m/s; control +0.16 (n 2) → se ajusta; p 0.002; estabilidad 100 %; BH sí
+  Ezeiza        850 hPa 1997-10: paso +0.09 m/s; control +0.21 (n 4) → regional, no se ajusta; p 0.029; estabilidad 100 %; BH sí
+  Campo Grande  850 hPa 2000-03: paso -0.42 m/s; control +0.28 (n 4) → se ajusta; p 0.013; estabilidad 100 %; BH sí
+  Campo Grande  700 hPa 2005-12: paso -0.45 m/s; control -0.03 (n 4) → se ajusta; p 0.001; estabilidad 100 %; BH sí
+  Campo Grande  700 hPa 1996-10: paso -0.40 m/s; control +0.09 (n 4) → se ajusta; p 0.015; estabilidad 100 %; BH sí
+  Uruguaiana    700 hPa 2010-02: paso -0.23 m/s; control -0.23 (n 4) → regional, no se ajusta; p 0.019; estabilidad 100 %; BH sí
+  Cuiabá        700 hPa 2009-01: paso -0.29 m/s; control -0.27 (n 4) → regional, no se ajusta; p 0.004; estabilidad 100 %; BH sí
+
+Frecuencia media de jet con niveles fijos (%, 12 UTC oct-mar 1980-2025): Resistencia 4.9, Córdoba 5.1, Ezeiza 1.3, Santa Rosa 3.4, Porto Velho 0.6, Vilhena 0.9, Cuiabá 1.6, Campo Grande 2.9, Foz 4.2, Uruguaiana 2.5
+
+Tendencia agrupada (10 estaciones) de jets con niveles fijos, pp/década [IC 90 % por bootstrap de temporadas]; entre paréntesis, % relativo por década respecto de la media del período
+  desde 1980 crudo                      : +0.10 [-0.04,+0.26]  (+4 %/déc; media 2.9 %)
+  desde 1980 crudo              + fuente: -0.00 [-0.26,+0.24]  (-0 %/déc; media 2.9 %)
+  desde 1980 ajustado con ERA5          : +0.17 [+0.03,+0.32]  (+6 %/déc; media 2.7 %)
+  desde 1980 ajustado con ERA5  + fuente: +0.13 [-0.11,+0.35]  (+5 %/déc; media 2.7 %)
+  desde 1993 crudo                      : +0.47 [+0.27,+0.69]  (+17 %/déc; media 2.7 %)
+  desde 1993 crudo              + fuente: +0.31 [+0.01,+0.60]  (+11 %/déc; media 2.7 %)
+  desde 1993 ajustado con ERA5          : +0.45 [+0.26,+0.66]  (+17 %/déc; media 2.6 %)
+  desde 1993 ajustado con ERA5  + fuente: +0.37 [+0.08,+0.64]  (+14 %/déc; media 2.6 %)
+  desde 1980, ajustado + fuente, con la incertidumbre del ajuste: DE por perturbación de los ajustes 0.010 pp/déc; IC 90 % total [-0.10,+0.36]; IC 95 % total [-0.15,+0.40]
+  desde 1993, ajustado + fuente, con la incertidumbre del ajuste: DE por perturbación de los ajustes 0.007 pp/déc; IC 90 % total [+0.09,+0.65]; IC 95 % total [+0.04,+0.70]
+
+Por estación (1980-2025), pp/década sin/con ajuste:
+  Resistencia   crudo +0.09  ajustado +0.36
+  Córdoba       crudo +0.06  ajustado +0.06
+  Santa Rosa    crudo +0.20  ajustado +0.20
+  Ezeiza        crudo -0.24  ajustado -0.12
+  Foz           crudo +0.49  ajustado +0.49
+  Campo Grande  crudo +0.59  ajustado +0.59
+  Uruguaiana    crudo -0.12  ajustado -0.12
+  Cuiabá        crudo -0.18  ajustado -0.18
+  Vilhena       crudo +0.07  ajustado +0.07
+  Porto Velho   crudo -0.21  ajustado -0.21
+
+(d) Fracción de sondeos con 850 y 700 hPa reportados y frecuencia de jet fijo en ERA5 con y sin esos niveles en el sondeo
+        %_con_850/700  ERA5_jet_%_con  ERA5_jet_%_sin   n_sin
+bloque                                                       
+80s              86.5             1.9             1.4  1217.0
+90s              81.3             1.7             1.7  1732.0
+00s              92.5             1.9             1.6  1034.0
+10s              99.5             2.1             2.5    81.0
+20s              99.9             2.4             9.1    11.0
+
+(f) Sondeo − ERA5 a 850 hPa (anomalía mensual media, m/s): seis años antes y después de nov 1991, por estación
+  Resistencia   antes +0.42 (n 35), después -0.67 (n 33), cambio -1.09
+  Córdoba       antes +0.55 (n 36), después +0.08 (n 27), cambio -0.47
+  Santa Rosa    antes +0.59 (n 24), después -0.41 (n 33), cambio -0.99
+  Ezeiza        antes +0.11 (n 36), después -0.20 (n 35), cambio -0.30
+  Foz           sin datos suficientes en ambos lados (antes 0, después 20 meses)
+  Campo Grande  antes +0.16 (n 21), después +0.22 (n 18), cambio +0.06
+  Uruguaiana    sin datos suficientes en ambos lados (antes 0, después 0 meses)
+  Cuiabá        sin datos suficientes en ambos lados (antes 0, después 5 meses)
+  Vilhena       antes -0.05 (n 22), después +0.18 (n 15), cambio +0.23
+  Porto Velho   sin datos suficientes en ambos lados (antes 1, después 17 meses)
+
+(e) Frecuencia de jet fijo (%) por período, mismos días con sondeo: sondeo | ERA5 (10 estaciones, media de estaciones)
+              o     e
+per                  
+1980-92    2.76  1.56
+1993-2000  1.73  1.59
+2001-25    2.86  2.07
+  Tendencia agrupada sin las temporadas 1993-2000, crudo + fuente: +0.14 [-0.09,+0.40]

@@ -1,0 +1,61 @@
+(a) Forma del cambio de la POD de ERA5 (jets con niveles fijos, 1533 jets, 10 estaciones)
+  modelo lineal               AIC   1904.7
+  modelo escalón 2001         AIC   1908.6
+  modelo escalón + pendiente  AIC   1900.2
+  modelo sin cambio           AIC   2014.5
+  fecha del escalón estimada: 1993 (AIC 1879.5; recta 1904.7); AIC por año de escalón: 1992: 1895, 1995: 1897, 1998: 1902, 2000: 1909, 2001: 1913, 2003: 1934, 2005: 1941, 2008: 1943, 2010: 1964
+  escalón + pendiente: escalón +0.66 log-odds, pendiente después +0.29 por década
+  POD 1980-2000 0.31 (n 464), 2001-2025 0.51 (n 1069)
+  POD por estación y período (n):
+    Resistencia   1980-95: 0.22 (115.0)  1996-2010: 0.38 (91.0)  2011-25: 0.71 (126.0)
+    Córdoba       1980-95: 0.42 (121.0)  1996-2010: 0.68 (87.0)  2011-25: 0.76 (108.0)
+    Ezeiza        1980-95: 0.24 (45.0)  1996-2010: 0.54 (24.0)  2011-25: 0.43 (21.0)
+    Santa Rosa    1980-95: 0.24 (72.0)  1996-2010: 0.64 (50.0)  2011-25: 0.57 (90.0)
+    Vilhena       1980-95: 0.17 (6.0)  1996-2010: 0.25 (12.0)  2011-25: 0.18 (22.0)
+    Cuiabá        1996-2010: 0.14 (28.0)  2011-25: 0.35 (23.0)
+    Campo Grande  1980-95: 0.03 (33.0)  1996-2010: 0.26 (39.0)  2011-25: 0.37 (76.0)
+    Londrina      1980-95: 0.67 (3.0)  1996-2010: 0.46 (13.0)  2011-25: 0.47 (77.0)
+    Foz           1980-95: 0.86 (7.0)  1996-2010: 0.62 (65.0)  2011-25: 0.40 (109.0)
+    Uruguaiana    1996-2010: 0.21 (19.0)  2011-25: 0.39 (51.0)
+
+(b) Métricas de contingencia de ERA5 contra el sondeo, niveles fijos (estaciones con ≥ 40 jets observados)
+  1980-95    POD 0.28  FAR 0.52  POFD 0.01  sesgo 0.59  ETS 0.21  (n 11741)
+  1996-2010  POD 0.48  FAR 0.38  POFD 0.01  sesgo 0.77  ETS 0.36  (n 16322)
+  2011-25    POD 0.53  FAR 0.30  POFD 0.01  sesgo 0.75  ETS 0.42  (n 21279)
+
+(c) RMS de (sondeo − ERA5) en la rapidez a 850 hPa (m/s), 12 UTC, por período
+  todos los días             1980-95: 3.17 (n 12639)  1996-2010: 2.34 (n 17831)  2011-25: 1.68 (n 23888)
+  días con jet observado     1980-95: 6.42 (n 404)  1996-2010: 4.66 (n 442)  2011-25: 2.72 (n 714)
+  días con viento ≥ 10 m/s   1980-95: 4.77 (n 3075)  1996-2010: 3.73 (n 3705)  2011-25: 2.49 (n 4817)
+  Con composición fija de estaciones (Resistencia, Córdoba, Ezeiza, Santa Rosa, Campo Grande):
+    1980-95    POD 0.27  FAR 0.53  POFD 0.01  sesgo 0.58  ETS 0.19  (n 10558)
+    1996-2010  POD 0.51  FAR 0.38  POFD 0.01  sesgo 0.83  ETS 0.38  (n 10344)
+    2011-25    POD 0.62  FAR 0.30  POFD 0.01  sesgo 0.88  ETS 0.47  (n 10654)
+
+(e) Frecuencia de jet fijo en ERA5 (%) en días CON sondeo de 12 UTC y SIN sondeo, por período, dentro de temporadas-estación con ≥ 60 sondeos
+  1980-95    con sondeo 2.00 (n 11468) | sin sondeo 1.48 (n 3112)
+  1996-2010  con sondeo 2.07 (n 16199) | sin sondeo 2.21 (n 3854)
+  2011-25    con sondeo 2.45 (n 21051) | sin sondeo 2.23 (n 3010)
+
+(g) Tendencia (pp/década, Sen) de la frecuencia de jet fijo en los MISMOS días con sondeo: sondeo | ERA5 (agrupado de anomalías)
+  estaciones: Resistencia, Córdoba, Ezeiza, Santa Rosa, Campo Grande
+  desde 1980: sondeo +0.08 [-0.12,+0.36] | ERA5 +0.38 [+0.19,+0.63]
+  desde 1993: sondeo +0.59 [+0.36,+0.96] | ERA5 +0.51 [+0.22,+0.99]
+  desde 2000: sondeo +0.56 [-0.03,+0.97] | ERA5 +0.47 [+0.08,+1.14]
+
+(d) Noches 00→12 UTC (Brasil, 1998-2025): Δw (m/s) a 925 hPa, mediana, según el jet de ERA5 (perfil) a 12 UTC
+  ERA5 con jet             n   694  sondeo +5.2 [+5.1,+5.7]  ERA5 +4.4 [+4.1,+4.7]
+  ERA5 sin jet             n 16187  sondeo +1.0 [+0.6,+1.0]  ERA5 +0.7 [+0.6,+0.7]
+  sondeo con jet (A o B)   n  1816  sondeo +4.6 [+4.1,+4.7]  ERA5 +3.1 [+2.9,+3.3]
+  sondeo sin jet (C)       n 14107  sondeo +0.5 [+0.5,+0.6]  ERA5 +0.6 [+0.6,+0.7]
+  Cuantiles sin condicionar (todas las noches pareadas): Δw925 / viento a 12 UTC a 925 hPa
+    p50: Δw925 sondeo +1.0  ERA5 +0.8 | w925(12 UTC) sondeo 6.2  ERA5 5.7
+    p75: Δw925 sondeo +3.6  ERA5 +2.8 | w925(12 UTC) sondeo 8.7  ERA5 7.9
+    p90: Δw925 sondeo +6.2  ERA5 +4.8 | w925(12 UTC) sondeo 11.8  ERA5 10.3
+    p95: Δw925 sondeo +7.7  ERA5 +6.2 | w925(12 UTC) sondeo 13.4  ERA5 12.0
+    p99: Δw925 sondeo +11.3  ERA5 +8.9 | w925(12 UTC) sondeo 17.5  ERA5 15.8
+
+(f) Detección por perfil con el perfil del sondeo truncado en 700 hPa (como ERA5): POD / FAR de ERA5 por período
+  1980-95    perfil completo POD 0.48 FAR 0.39 | truncado en 700 hPa POD 0.48 FAR 0.39 | frecuencia obs 10.3 → 10.3 %
+  1996-2010  perfil completo POD 0.51 FAR 0.26 | truncado en 700 hPa POD 0.52 FAR 0.26 | frecuencia obs 13.4 → 13.0 %
+  2011-25    perfil completo POD 0.50 FAR 0.07 | truncado en 700 hPa POD 0.51 FAR 0.08 | frecuencia obs 19.7 → 19.3 %

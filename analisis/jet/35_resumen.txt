@@ -1,0 +1,46 @@
+(a) Fracción evaluable del perfil completo (%), 12 UTC oct-mar, 10 estaciones
+  por período: 1980-92 59 %, 1993-2000 78 %, 2001-05 84 %, 2006-25 94 %
+  por archivo (≥ 300 sondeos): ncdc-gts 92 %, ncdc6314 40 %, ncdc6316 7 %, ncdc6322 50 %, usaf-ds3 77 %
+  por estación y período (%):
+per           1980-92  1993-2000  2001-05  2006-25
+sid                                               
+Resistencia      58.0       75.0     73.0     87.0
+Córdoba          52.0       81.0     86.0     98.0
+Ezeiza           70.0       89.0     84.0     87.0
+Santa Rosa       55.0       87.0     93.0     98.0
+Porto Velho       5.0       73.0     59.0     91.0
+Vilhena          75.0       68.0     88.0     96.0
+Cuiabá            NaN       52.0     91.0     97.0
+Campo Grande     57.0       67.0     68.0     96.0
+Foz               NaN       85.0     98.0     99.0
+Uruguaiana        NaN        NaN     94.0     91.0
+
+(b) Tendencia agrupada del perfil completo (pp/década) según el tratamiento de los no evaluables [IC 95 %, 1000 réplicas]
+  no evaluables excluidos (pasos 10 y 24)                                     sin fuente : +2.44 [+1.98,+3.06]  (media 12.4 %)
+  no evaluables excluidos (pasos 10 y 24)                                     con fuente: +1.73 [+0.75,+2.56]  (media 12.4 %)
+  no evaluables imputados con la frecuencia de su archivo-estación-mes        sin fuente : +2.37 [+2.00,+2.87]  (media 11.9 %)
+  no evaluables imputados con la frecuencia de su archivo-estación-mes        con fuente: +1.48 [+0.64,+2.13]  (media 11.9 %)
+  no evaluables contados como sin jet (NaN → 0)                               sin fuente : +3.11 [+2.73,+3.61]  (media 10.3 %)
+  no evaluables contados como sin jet (NaN → 0)                               con fuente: +2.34 [+1.37,+3.12]  (media 10.3 %)
+
+(c) Altura del núcleo de los jets de perfil completo (hPa sobre la superficie)
+  1980-92: 622 jets; núcleo ≤ 20 hPa 22 %; ≤ 50 hPa 36 %; mediana 67
+  1993-2000: 454 jets; núcleo ≤ 20 hPa 10 %; ≤ 50 hPa 33 %; mediana 73
+  2001-05: 701 jets; núcleo ≤ 20 hPa 2 %; ≤ 50 hPa 23 %; mediana 72
+  2006-25: 3783 jets; núcleo ≤ 20 hPa 2 %; ≤ 50 hPa 31 %; mediana 64
+  Tendencia de los jets con núcleo > 50 hPa (evaluables): sin fuente  +1.45 [+1.06,+1.92]
+  Tendencia de los jets con núcleo > 50 hPa (evaluables): con fuente +0.43 [-0.37,+1.07]
+  Tendencia de los jets con núcleo ≤ 50 hPa (evaluables): sin fuente  +1.00 [+0.75,+1.25]  (frecuencia media 3.8 % frente a 8.6 % de los de núcleo > 50 hPa)
+  Tendencia de los jets con núcleo ≤ 50 hPa (evaluables): con fuente +1.30 [+0.92,+1.63]  (frecuencia media 3.8 % frente a 8.6 % de los de núcleo > 50 hPa)
+
+(d) Fracción de sondeos que reportan el nivel de superficie (indicador 1 de IGRA) por archivo y por período
+  por archivo (≥ 300 sondeos): ncdc-gts 97 %, ncdc6314 96 %, ncdc6316 100 %, ncdc6322 96 %, usaf-ds3 92 %
+  por período: 1980-92 91 %, 1993-2000 94 %, 2001-05 96 %, 2006-25 97 %
+
+(e) Perfil completo con el núcleo al menos 10 o 30 hPa por encima del nivel de superficie (excluye máximos del nivel de superficie), pp/década [IC 95 %]
+  criterio original (núcleo desde la superficie)     sin fuente : +2.44 [+1.98,+3.06]  (media 12.4 %, evaluables 83 %)
+  criterio original (núcleo desde la superficie)     con fuente: +1.73 [+0.75,+2.56]  (media 12.4 %, evaluables 83 %)
+  núcleo ≥ 10 hPa sobre la superficie                sin fuente : +2.44 [+1.95,+3.07]  (media 12.3 %, evaluables 83 %)
+  núcleo ≥ 10 hPa sobre la superficie                con fuente: +1.74 [+0.73,+2.57]  (media 12.3 %, evaluables 83 %)
+  núcleo ≥ 30 hPa sobre la superficie                sin fuente : +2.33 [+1.83,+2.92]  (media 12.1 %, evaluables 82 %)
+  núcleo ≥ 30 hPa sobre la superficie                con fuente: +1.61 [+0.59,+2.42]  (media 12.1 %, evaluables 82 %)

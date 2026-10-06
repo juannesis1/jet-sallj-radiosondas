@@ -1,0 +1,70 @@
+Emulación de la resolución vertical (criterio de perfil completo, 12 UTC oct-mar)
+Variantes del emulador: 'no adaptativo' = niveles de un sondeo antiguo del mismo mes (cota inferior de lo que habría detectado el archivo antiguo); 'adaptativo' = además los niveles reales del máximo y del mínimo superior (cota superior).
+
+=== Resistencia
+  1980-1995 observado  11.0 %  | 2005-2025: moderno  18.9  no adaptativo  12.9  adaptativo  19.5  → fracción del aumento explicada por la resolución: 76 % (no adaptativo), -8 % (adaptativo)
+
+=== Córdoba
+  1980-1995 observado  11.7 %  | 2005-2025: moderno  19.3  no adaptativo  11.1  adaptativo  19.4  → fracción del aumento explicada por la resolución: 108 % (no adaptativo), -1 % (adaptativo)
+
+=== Santa Rosa
+  1980-1995 observado  13.6 %  | 2005-2025: moderno  24.8  no adaptativo  16.8  adaptativo  24.9  → fracción del aumento explicada por la resolución: 72 % (no adaptativo), -1 % (adaptativo)
+
+=== Ezeiza
+  1980-1995 observado   7.6 %  | 2005-2025: moderno  11.5  no adaptativo   5.7  adaptativo  11.8  → fracción del aumento explicada por la resolución: 149 % (no adaptativo), -7 % (adaptativo)
+
+=== Foz
+  1980-1995 observado   8.4 %  | 2005-2025: moderno  22.6  no adaptativo  17.8  adaptativo  22.7  → fracción del aumento explicada por la resolución: 34 % (no adaptativo), -1 % (adaptativo)
+
+=== Campo Grande
+  1980-1995 observado   6.2 %  | 2005-2025: moderno  13.3  no adaptativo   5.0  adaptativo  13.3  → fracción del aumento explicada por la resolución: 118 % (no adaptativo), -1 % (adaptativo)
+
+--- Cambio a igual resolución: 1980-1989 observado vs 2005-2025 emulado con niveles de 1980-1989 ---
+  Resistencia   1980-89 obs  13.0 (fuentes {'usaf-ds3': np.int64(1070), 'ncdc6316': np.int64(14)}) | 2005-25 emulado: no adaptativo  11.5, adaptativo  17.8
+      diferencia no adaptativo -1.5 [-5.0,+1.7]  adaptativo +4.8 [+1.3,+8.5]  con sensibilidad de vientos -2.3  sólo fuente usaf-ds3 -1.7
+  Córdoba       1980-89 obs  10.8 (fuentes {'usaf-ds3': np.int64(985), 'ncdc6316': np.int64(2)}) | 2005-25 emulado: no adaptativo  10.4, adaptativo  19.1
+      diferencia no adaptativo -0.4 [-2.4,+1.6]  adaptativo +8.3 [+6.0,+10.5]  con sensibilidad de vientos -1.2  sólo fuente usaf-ds3 -0.3
+  Santa Rosa    1980-89 obs  17.0 (fuentes {'usaf-ds3': np.int64(912), 'ncdc6316': np.int64(2)}) | 2005-25 emulado: no adaptativo  16.4, adaptativo  24.4
+      diferencia no adaptativo -0.5 [-4.5,+3.4]  adaptativo +7.5 [+3.3,+11.8]  con sensibilidad de vientos -2.1  sólo fuente usaf-ds3 -0.6
+  Ezeiza        1980-89 obs   9.0 (fuentes {'usaf-ds3': np.int64(1222), 'ncdc6316': np.int64(40)}) | 2005-25 emulado: no adaptativo   5.5, adaptativo  10.8
+      diferencia no adaptativo -3.5 [-6.5,-1.1]  adaptativo +1.7 [-1.3,+4.4]  con sensibilidad de vientos -3.4  sólo fuente usaf-ds3 -3.8
+  Foz           sin datos suficientes en 1980-1989
+  Campo Grande  1980-89 obs   5.3 (fuentes {'usaf-ds3': np.int64(661), 'ncdc6324': np.int64(3)}) | 2005-25 emulado: no adaptativo   4.5, adaptativo  12.6
+      diferencia no adaptativo -0.8 [-2.7,+1.1]  adaptativo +7.4 [+4.9,+9.8]  con sensibilidad de vientos -1.3  sólo fuente usaf-ds3 -0.8
+  Agrupado (5 estaciones), no adaptativo: -1.3 pp [-2.6,-0.0]
+  Agrupado (5 estaciones), adaptativo (cota superior): +6.0 pp [+4.5,+7.4]
+  Agrupado (5 estaciones), no adaptativo + sensibilidad de vientos: -2.0 pp [-3.4,-0.8]
+
+--- Validación: ¿el emulador reproduce la diferencia observada entre archivos dentro de la misma temporada? ---
+    diferencia (USAF − GTS), pp: observada | predicha por emulación con plantillas USAF aplicadas a los sondeos GTS (no adaptativo / adaptativo)
+  Resistencia    4 temporadas: observada  +4.9 | predicha  -4.6 /  +0.6
+  Córdoba        3 temporadas: observada  +3.2 | predicha  -6.1 /  +0.1
+  Santa Rosa     4 temporadas: observada  -0.3 | predicha  -5.0 /  -1.2
+  Ezeiza         4 temporadas: observada  +3.4 | predicha  -3.9 /  -0.7
+  Foz            3 temporadas: observada  +7.1 | predicha  -4.2 /  -0.1
+  Campo Grande   3 temporadas: observada  -1.9 | predicha  -2.2 /  -0.3
+  TODAS 21 estaciones-temporadas: observada +2.7 [+0.4,+5.1] | predicha -4.3 [-5.5,-3.2] / -0.3 [-0.7,+0.1] (IC 90 % por bootstrap de estaciones-temporada; sondeos por celda USAF/GTS: mediana 74/60, mínimo 24/38)
+
+--- Archivos de baja resolución: nº de sondeos, niveles en 0-250 hPa, % con 850 y 700 hPa, jets (perfil completo, %) ---
+  Córdoba
+             n       años  niveles  pct_850_700   jet
+fu                                                   
+ncdc-gts  3607  2000-2025      7.0         96.1  18.1
+ncdc6314   149  1998-2006      1.0         38.9   4.5
+ncdc6316   326  1980-1991      2.0         68.4  33.3
+ncdc6322   271  1990-1992      2.0         88.9  15.0
+usaf-ds3  2383  1980-2006      5.0         92.9  12.6
+  Santa Rosa
+             n       años  niveles  pct_850_700   jet
+fu                                                   
+ncdc-gts  3675  2000-2025      7.0         97.3  23.3
+ncdc6316   389  1980-1991      1.0         47.8   0.0
+ncdc6322   347  1991-1993      4.0         86.5  10.4
+usaf-ds3  2462  1980-2006      6.0         90.7  13.9
+  Resistencia
+             n       años  niveles  pct_850_700   jet
+fu                                                   
+ncdc-gts  3778  2000-2025      8.0         98.9  19.0
+ncdc6316   190  1980-1991      3.0         80.0   0.0
+ncdc6322   121  1990-1992      3.0         81.0   3.2
+usaf-ds3  3012  1980-2006      8.0         93.2  11.1

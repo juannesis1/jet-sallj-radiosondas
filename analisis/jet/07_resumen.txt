@@ -1,0 +1,18 @@
+
+Resistencia: A (fijos 850/700) 199, B (solo alta resolución) 487, C 3221 días
+  A: núcleo 20.6 m/s a 83 hPa sobre la superficie; v850 sondeo 15.2 m/s (sur→norte positivo invertido); q850 11.8 g/kg
+  B: núcleo 15.9 m/s a 56 hPa sobre la superficie; v850 sondeo 8.6 m/s (sur→norte positivo invertido); q850 10.9 g/kg
+  A: anomalía del transporte −qv a 850 hPa (20-32°S, 65-55°W) +83.3 g kg⁻¹ m s⁻¹
+  B: anomalía del transporte −qv a 850 hPa (20-32°S, 65-55°W) +68.4 g kg⁻¹ m s⁻¹
+
+Córdoba: A (fijos 850/700) 189, B (solo alta resolución) 483, C 3075 días
+  A: núcleo 17.0 m/s a 90 hPa sobre la superficie; v850 sondeo 14.9 m/s (sur→norte positivo invertido); q850 7.8 g/kg
+  B: núcleo 14.4 m/s a 69 hPa sobre la superficie; v850 sondeo 9.8 m/s (sur→norte positivo invertido); q850 8.1 g/kg
+  A: anomalía del transporte −qv a 850 hPa (20-32°S, 65-55°W) +34.2 g kg⁻¹ m s⁻¹
+  B: anomalía del transporte −qv a 850 hPa (20-32°S, 65-55°W) +19.9 g kg⁻¹ m s⁻¹
+
+Santa Rosa: A (fijos 850/700) 139, B (solo alta resolución) 752, C 3124 días
+  A: núcleo 19.5 m/s a 82 hPa sobre la superficie; v850 sondeo 13.7 m/s (sur→norte positivo invertido); q850 6.5 g/kg
+  B: núcleo 15.4 m/s a 48 hPa sobre la superficie; v850 sondeo 6.7 m/s (sur→norte positivo invertido); q850 5.7 g/kg
+  A: anomalía del transporte −qv a 850 hPa (30-40°S, 68-58°W) +45.9 g kg⁻¹ m s⁻¹
+  B: anomalía del transporte −qv a 850 hPa (30-40°S, 68-58°W) +27.1 g kg⁻¹ m s⁻¹

@@ -1,0 +1,71 @@
+(a) Probabilidad de que ERA5 detecte un jet observado (niveles fijos), regresión logística con efectos de estación; n 1533 jets, 10 estaciones
+  coef. del año (por década, log-odds): +0.41 [+0.33,+0.51] sin controles; +0.48 [+0.38,+0.59] controlando rapidez a 850 y caída 850-700
+  POD (1979, 1995]: 0.28 (n 402); rapidez observada media 16.8 m/s
+  POD (1995, 2010]: 0.48 (n 428); rapidez observada media 15.9 m/s
+  POD (2010, 2025]: 0.53 (n 703); rapidez observada media 16.0 m/s
+  falsas alarmas (ERA5 jet sin jet observado): coef. del año -0.00 [-0.09,+0.07] por década
+
+(b) Tendencia 1980-2025 (pp/década, Sen; p Mann-Kendall Hamed-Rao), frecuencia en el punto de grilla
+  Resistencia   era_fijos +0.41 (p 0.01)  era_perfil +1.19 (p 0.00)  obs_fijos -0.09 (p 0.83)
+  Córdoba       era_fijos +0.44 (p 0.04)  era_perfil +0.61 (p 0.01)  obs_fijos ≈0 (pendiente degenerada: serie de eventos raros con mediana de diferencias nula)
+  Ezeiza        era_fijos ≈0 (pendiente degenerada: serie de eventos raros con mediana de diferencias nula)  era_perfil -0.14 (p 0.27)  obs_fijos ≈0 (pendiente degenerada: serie de eventos raros con mediana de diferencias nula)
+  Santa Rosa    era_fijos +0.57 (p 0.00)  era_perfil +1.22 (p 0.01)  obs_fijos +0.46 (p 0.36)
+  Foz           era_fijos ≈0 (pendiente degenerada: serie de eventos raros con mediana de diferencias nula)  era_perfil +0.82 (p 0.07)  obs_fijos +0.44 (p 0.31)
+  Uruguaiana    era_fijos ≈0 (pendiente degenerada: serie de eventos raros con mediana de diferencias nula)  era_perfil +0.20 (p 0.04)
+  Campo Grande  era_fijos +0.34 (p 0.00)  era_perfil +0.72 (p 0.00)  obs_fijos +0.50 (p 0.03)
+  Cuiabá        era_fijos ≈0 (pendiente degenerada: serie de eventos raros con mediana de diferencias nula)  era_perfil +0.51 (p 0.00)  obs_fijos -0.05 (p 0.71)
+  Vilhena       era_fijos ≈0 (pendiente degenerada: serie de eventos raros con mediana de diferencias nula)  era_perfil ≈0 (pendiente degenerada: serie de eventos raros con mediana de diferencias nula)  obs_fijos +0.20 (p 0.02)
+  Porto Velho   era_fijos ≈0 (pendiente degenerada: serie de eventos raros con mediana de diferencias nula)  era_perfil ≈0 (pendiente degenerada: serie de eventos raros con mediana de diferencias nula)  obs_fijos -0.09 (p 0.05)
+  Londrina      era_fijos ≈0 (pendiente degenerada: serie de eventos raros con mediana de diferencias nula)  era_perfil +0.27 (p 0.04)
+  AGRUPADO era_fijos: +0.25 pp/década [+0.17,+0.33] (p 0.000)
+  AGRUPADO era_perfil: +0.50 pp/década [+0.36,+0.67] (p 0.000)
+
+(c) Frecuencia de jet (perfil completo, %) 8 temporadas antes → después de cada salto: sondeo | ERA5
+  Resistencia   1997-11: sondeo   4.4 →  14.7 | ERA5   6.2 →   7.8
+  Santa Rosa    2000-02: sondeo   9.0 →  17.8 | ERA5  12.8 →  16.3
+  Ezeiza        1997-10: sondeo   5.1 →  10.6 | ERA5   5.6 →   5.4
+  Foz           2010-02: sondeo  16.1 →  25.5 | ERA5  13.3 →  12.0
+  Control: cambio (pp) entre las 8 temporadas antes y después de cada fecha, media de estaciones, sondeo | ERA5 (perfil completo)
+    fin de 1997  Argentina (n 4): +6.5 | +1.5   Brasil (n 2): -1.6 | +0.2
+    feb 2000     Argentina (n 4): +7.9 | +2.0   Brasil (n 2): -0.6 | +0.2
+    nov 2002     Argentina (n 4): +8.5 | +2.5   Brasil (n 3): +3.3 | +0.5
+
+(d) Tendencia de ERA5 (niveles fijos, días con sondeo) real vs con POD fija en la de 1980-1995 (pp/década)
+  estaciones: Resistencia, Córdoba, Ezeiza, Santa Rosa, Campo Grande
+  Diferencia pareada ERA5 − sondeos (mismas temporadas y días): +0.30 pp/década [IC 90 % +0.10,+0.50; IC 95 % +0.06,+0.53]
+  Diferencia pareada ERA5 − sondeos AJUSTADOS por los quiebres propios (mismas temporadas y días): +0.23 pp/década [IC 95 % -0.00,+0.42]
+  ERA5 real        : +0.38 [+0.20,+0.63] (5 estaciones)
+  POD fija 1980-95 : -0.01 [-0.17,+0.13] (5 estaciones)
+  observado        : +0.08 [-0.09,+0.34] (5 estaciones)
+
+(d2) Mismo contrafáctico con el criterio de perfil completo (días con sondeo; estaciones: Resistencia, Córdoba, Ezeiza, Santa Rosa, Vilhena, Campo Grande, Foz)
+  ERA5 real        : +0.75 [+0.40,+1.11]
+  POD fija 1980-95 : +0.41 [+0.17,+0.65]
+  observado        : +2.42 [+2.05,+2.97]
+
+(e) Sondeos 2006-2025 (alta resolución): tendencia de jets profundos (A) y someros (B), pp/década
+  Resistencia   A -0.31 (p 0.55)  B -0.14 (p 0.98)
+  Córdoba       A -0.00 (p 1.00)  B +0.18 (p 0.91)
+  Santa Rosa    A +0.77 (p 0.32)  B +7.07 (p 0.00)
+  Ezeiza        A -0.04 (p 0.53)  B -3.18 (p 0.08)
+  Foz           A -1.54 (p 0.36)  B +3.31 (p 0.23)
+  Campo Grande  A +0.11 (p 0.84)  B +1.31 (p 0.40)
+  AGRUPADO A: -0.19 (p 0.67)
+  AGRUPADO B: +1.27 (p 0.09)
+  Santa Rosa 2008-2015: jets someros 16.5 %, núcleo mediano 56 hPa sobre la superficie, niveles en 0-250 hPa 7
+  Santa Rosa 2016-2025: jets someros 24.9 %, núcleo mediano 42 hPa sobre la superficie, niveles en 0-250 hPa 6
+  Santa Rosa 925 hPa menos Córdoba-Ezeiza, 2006-2025: SNHT T=20 en 2020-07, +2.23 → +3.22 m/s
+  Santa Rosa, perfil completo 2008-2015 → 2017-2025: sondeo 20.5 → 29.3 %, ERA5 17.5 → 18.8 %
+
+(f) Fracción de jets observados que ERA5 detecta (criterio de perfil), 1998-2025: profundos A / someros B
+  Resistencia   A  57 % (n 195)  B  53 % (n 485)
+  Córdoba       A  78 % (n 183)  B  26 % (n 474)
+  Ezeiza        A  53 % (n 38)  B  39 % (n 385)
+  Santa Rosa    A  88 % (n 138)  B  66 % (n 746)
+  Porto Velho   A   9 % (n 22)  B   3 % (n 98)
+  Vilhena       A  30 % (n 33)  B   8 % (n 173)
+  Cuiabá        A  40 % (n 50)  B  15 % (n 202)
+  Campo Grande  A  47 % (n 108)  B  17 % (n 242)
+  Londrina      A  30 % (n 90)  B  14 % (n 204)
+  Foz           A  72 % (n 168)  B  45 % (n 656)
+  Uruguaiana    A  39 % (n 67)  B  30 % (n 228)

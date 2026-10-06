@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Has the South American low-level jet changed? Radiosonde evidence and the limits set by the observing system, 1980–2025: analysis code"
+type: software
+authors:
+  - family-names: Nesis
+    given-names: Juan
+    affiliation: "Independent researcher, Buenos Aires, Argentina"
+    orcid: "https://orcid.org/0009-0008-2439-3378"
+abstract: >-
+  Code that reproduces the analysis of the frequency of the South American low-level jet in IGRA v2 radiosondes (31 stations,
+  1980–2025), the effect of archive sources, wind breaks, vertical resolution and sounding noise, and the comparison with ERA5.
+license: MIT
+repository-code: "https://github.com/juannesis1/jet-sallj-radiosondas"
+version: "1.0.0"
+date-released: "2026-10-06"
+keywords:
+  - low-level jet
+  - radiosondes
+  - observing system
+  - homogeneity
+  - ERA5
+  - South America

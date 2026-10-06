@@ -1,0 +1,32 @@
+Frecuencia media de jets profundos (10 estaciones): 2.88 %
+    Error de Monte Carlo (otra semilla, 2000 réplicas): IC 90 % [-0.272,+0.234] frente a [-0.279,+0.242]
+(a) Tendencia agrupada de jets profundos, 1980-2025, efectos de mes, estación y fuente, viento original: -0.00 pp/déc; IC 90 % [-0.28,+0.24]; IC 95 % [-0.34,+0.29]
+    Error de Monte Carlo (otra semilla, 2000 réplicas): IC 90 % [-0.115,+0.352] frente a [-0.115,+0.357]
+(a) Tendencia agrupada de jets profundos, 1980-2025, efectos de mes, estación y fuente, viento ajustado por los quiebres propios de cada estación (paso 22): +0.13 pp/déc; IC 90 % [-0.12,+0.36]; IC 95 % [-0.18,+0.40]
+(b) Marco de equivalencia (margen ADOPTADO por convención, no preregistrado: ±10 % de la media por década; variantes ±15 y ±20 %):
+    fijos      margen ±10 %/déc = ±0.29 pp/déc: IC 90 % [-0.28,+0.24] → equivalencia (TOST, 5 %)
+    fijos      margen ±15 %/déc = ±0.43 pp/déc: IC 90 % [-0.28,+0.24] → equivalencia (TOST, 5 %)
+    fijos      margen ±20 %/déc = ±0.58 pp/déc: IC 90 % [-0.28,+0.24] → equivalencia (TOST, 5 %)
+    fijos      cota superior: IC 90 % +0.24 pp/déc = +8 %/déc; IC 95 % +0.29 = +10 %/déc
+    fijos_adj  margen ±10 %/déc = ±0.29 pp/déc: IC 90 % [-0.12,+0.36] → no se establece equivalencia
+    fijos_adj  margen ±15 %/déc = ±0.43 pp/déc: IC 90 % [-0.12,+0.36] → equivalencia (TOST, 5 %)
+    fijos_adj  margen ±20 %/déc = ±0.58 pp/déc: IC 90 % [-0.12,+0.36] → equivalencia (TOST, 5 %)
+    fijos_adj  cota superior: IC 90 % +0.36 pp/déc = +12 %/déc; IC 95 % +0.40 = +14 %/déc
+(b2) Mismos sondeos evaluables (44060): tendencia con fuente del perfil completo +1.74, de los jets profundos -0.02; diferencia (perfil completo − profundos, es decir, jets sólo perfil completo) +1.76 pp/déc, IC 90 % [+1.14,+2.29], IC 95 % [+1.01,+2.39]
+(c) Serie agrupada de anomalías, viento original (46 temporadas). Ajuste lineal por tramos: quiebre estimado en 1996; pendiente antes -0.82 pp/déc, después +0.44; AIC -13.2 frente a -8.2 de la recta (menor = mejor)
+    bootstrap de temporadas (500 réplicas): t0 mediana 1996, IC 90 % [1993,1999]; pendiente antes -0.86 [-1.31,-0.47]; después +0.44 [+0.21,+0.69] (= +15 %/déc)
+(c) Serie agrupada de anomalías, viento ajustado (46 temporadas). Ajuste lineal por tramos: quiebre estimado en 1996; pendiente antes -0.57 pp/déc, después +0.42; AIC -24.5 frente a -21.3 de la recta (menor = mejor)
+    bootstrap de temporadas (500 réplicas): t0 mediana 1996, IC 90 % [1992,2000]; pendiente antes -0.58 [-0.98,-0.21]; después +0.42 [+0.22,+0.68] (= +15 %/déc)
+    Estaciones por temporada en la serie agrupada: 1980–1992: 5.1, 1993–2000: 6.2, 2001–2025: 8.7
+(d) Dejando una estación afuera (con fuente; viento ajustado), pp/déc [IC 90 %, 100 réplicas]:
+    sin Resistencia   +0.13 [-0.02,+0.28]
+    sin Córdoba       +0.11 [-0.14,+0.31]
+    sin Santa Rosa    +0.09 [-0.11,+0.33]
+    sin Ezeiza        +0.18 [-0.10,+0.42]
+    sin Foz           +0.18 [-0.05,+0.39]
+    sin Campo Grande  +0.02 [-0.25,+0.24]
+    sin Uruguaiana    +0.12 [-0.12,+0.33]
+    sin Cuiabá        +0.12 [-0.14,+0.33]
+    sin Vilhena       +0.14 [-0.10,+0.38]
+    sin Porto Velho   +0.17 [-0.08,+0.38]
+    rango de las estimaciones puntuales: +0.02 a +0.18

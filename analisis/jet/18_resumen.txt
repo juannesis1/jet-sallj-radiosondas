@@ -1,0 +1,34 @@
+Lluvia CHIRPS (mm en 48 h) en la región de salida 33-25°S, 62-53°W después de cada clase de jet regional, oct-mar, temporadas 1998-2025
+IC 90 % por bootstrap de temporadas completas; anomalías respecto de la media del mes calendario (todos los días)
+  A: n   624  media  14.4 mm [12.7,16.1]  anomalía +5.0 [+3.4,+6.6]  P(≥20 mm) 32.9 %
+  B: n  1604  media   9.8 mm [9.0,10.7]  anomalía +0.5 [-0.3,+1.3]  P(≥20 mm) 18.5 %
+  C: n  2420  media   7.7 mm [7.1,8.4]  anomalía -1.6 [-2.3,-0.9]  P(≥20 mm) 12.1 %
+  anomalía A − C: +6.6 mm [+5.1,+8.0]
+  anomalía B − C: +2.1 mm [+1.2,+3.0]
+  anomalía A − B: +4.5 mm [+3.3,+5.8]
+  hasta 2015, anomalía A − C: +6.8 mm [+4.7,+9.0]
+  hasta 2015, anomalía B − C: +2.4 mm [+1.1,+3.6]
+  hasta 2015, anomalía A − B: +4.4 mm [+2.6,+6.2]
+
+  Estratificado por paso frontal en las 48 h siguientes (Resistencia o Córdoba); anomalía media (mm) [n]:
+    A: con frente +8.2 [282]; sin frente +2.4 [339]
+    B: con frente +4.6 [523]; sin frente -1.6 [1064]
+    C: con frente +1.2 [535]; sin frente -2.4 [1860]
+
+  Días regionales evaluados: A 624 (13 %), B 1604 (35 %), C 2420 (52 %)
+  Fracción de la suma de las lluvias de 48 h que corresponde a cada clase: A 21 %, B 36 %, C 43 %
+
+  Regresión de la anomalía de lluvia (mm) sobre la clase y covariables sinópticas del día del jet (IC 90 % por bootstrap de temporadas):
+    A (jet profundo)             +4.67 [+3.48,+5.90]
+    B (jet somero)               +2.28 [+1.64,+3.04]
+    anomalía de presión (hPa)    -1.10 [-1.20,-1.00]
+    Δp 24 h (hPa)                +0.81 [+0.71,+0.89]
+    frente en 48 h               +1.52 [+0.91,+2.19]
+
+  Clases por altura del núcleo del jet (≤ 60 hPa sobre el suelo: L; alguna estación con núcleo > 60 hPa: H): anomalía de lluvia (mm) [IC 90 %]
+    L: n   733  -1.5 [-2.3,-0.6]
+    H: n  1427  +3.1 [+2.0,+4.2]
+    C: n  2420  -1.6 [-2.2,-0.9]
+    L − C: +0.0 [-0.8,+1.0]
+    H − C: +4.7 [+3.7,+5.7]
+    H − L: +4.7 [+3.7,+5.5]

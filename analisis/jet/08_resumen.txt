@@ -1,0 +1,22 @@
+Hora real de lanzamiento (UTC) de los sondeos nominales de 12 UTC, oct-mar: mediana y % antes de 11:30, por quinquenio
+
+Resistencia (3360 con hora): 2000:11.17h/93% 2005:11.18h/95% 2010:11.03h/98% 2015:11.17h/99% 2020:11.57h/14% 2025:11.57h/1%
+   jet (perfil completo) si se lanzó antes de 11:30: 19.9% | a partir de 11:30: 18.2%
+
+Córdoba (3509 con hora): 2000:11.18h/97% 2005:11.12h/95% 2010:11.12h/100% 2015:11.18h/89% 2020:11.53h/33% 2025:11.57h/4%
+   jet (perfil completo) si se lanzó antes de 11:30: 18.8% | a partir de 11:30: 17.3%
+
+Santa Rosa (3642 con hora): 2000:11.17h/97% 2005:11.03h/97% 2010:11.05h/99% 2015:11.10h/98% 2020:11.50h/50% 2025:11.55h/1%
+   jet (perfil completo) si se lanzó antes de 11:30: 22.8% | a partir de 11:30: 28.2%
+
+Ezeiza (3371 con hora): 2000:11.30h/90% 2005:11.32h/83% 2010:11.40h/71% 2015:11.55h/27% 2020:11.57h/8%
+   jet (perfil completo) si se lanzó antes de 11:30: 12.9% | a partir de 11:30: 9.9%
+
+Foz (3573 con hora): 2000:11.75h/13% 2005:11.62h/18% 2010:11.57h/1% 2015:11.52h/0% 2020:11.60h/0% 2025:11.57h/3%
+   jet (perfil completo) si se lanzó antes de 11:30: 22.0% | a partir de 11:30: 22.3%
+
+Campo Grande (2718 con hora): 2000:11.73h/14% 2005:11.63h/19% 2010:11.52h/2% 2015:11.50h/0% 2020:11.50h/0% 2025:11.50h/0%
+   jet (perfil completo) si se lanzó antes de 11:30: 16.3% | a partir de 11:30: 13.4%
+
+Uruguaiana (2611 con hora): 2000:11.53h/0% 2005:11.58h/4% 2010:11.52h/0% 2015:11.50h/0% 2020:11.50h/0% 2025:11.50h/0%
+   jet (perfil completo) si se lanzó antes de 11:30: 0.0% | a partir de 11:30: 11.3%

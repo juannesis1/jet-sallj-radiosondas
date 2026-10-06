@@ -1,0 +1,4 @@
+Estaciones con tendencia: 22
+Perfil completo, p<0.05: 13 (13 positivas)
+Niveles fijos, p<0.05: 3: BRM00083208 +0.20, BRM00083612 +0.50, BRM00083840 +0.11
+Perfil completo, máx: ARM00087623 +5.21, BRM00083827 +5.01, ARM00087344 +2.57, ARM00087155 +2.48

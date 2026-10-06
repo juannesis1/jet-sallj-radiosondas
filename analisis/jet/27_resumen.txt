@@ -1,0 +1,27 @@
+(a) Perfiles compuestos de rapidez (m/s) por altura sobre la superficie (hPa), 2006-2025, 12 UTC oct-mar: mediana [Q1,Q3]
+  clase A (n 579): 0 hPa: 4.1 [2.6,6.2]; 30 hPa: 11.5 [8.7,14.1]; 60 hPa: 15.1 [12.2,18.6]; 100 hPa: 16.7 [14.0,19.3]; 150 hPa: 14.7 [12.5,17.7]; 200 hPa: 11.3 [9.0,14.5]; 300 hPa: 7.0 [4.6,9.4]
+  clase B (n 1928): 0 hPa: 4.1 [3.1,6.2]; 30 hPa: 10.8 [8.3,13.3]; 60 hPa: 12.9 [11.0,15.4]; 100 hPa: 11.6 [9.4,13.9]; 150 hPa: 8.4 [6.2,11.3]; 200 hPa: 6.8 [4.7,9.6]; 300 hPa: 6.3 [4.0,9.3]
+  clase C (n 9370): 0 hPa: 2.6 [1.5,4.1]; 30 hPa: 6.4 [4.2,8.8]; 60 hPa: 7.2 [4.8,10.1]; 100 hPa: 6.6 [4.5,9.5]; 150 hPa: 6.2 [4.1,9.3]; 200 hPa: 6.4 [4.4,9.5]; 300 hPa: 7.7 [4.8,11.7]
+
+(b) Jets de perfil completo (norte) según la altura del núcleo, estaciones brasileñas, 2006-2025: frecuencia (%) a 00 y 12 UTC
+  núcleo bajo: 00 UTC 1.0 %  12 UTC 3.5 %  cociente 3.4
+  núcleo alto: 00 UTC 1.4 %  12 UTC 7.4 %  cociente 5.4
+
+(c) Fracción de los jets observados (12 UTC, 2006-2025) que ERA5 detecta con el perfil, por altura del núcleo (todas las estaciones con ERA5)
+  núcleo bajo (≤ 60 hPa) : n  1765, rapidez mediana 14.9 m/s, ERA5 detecta 42 %
+  núcleo alto (> 60 hPa) : n  2332, rapidez mediana 14.9 m/s, ERA5 detecta 44 %
+    núcleo   0- 30 hPa sobre el suelo: n   237, rapidez 13.9 m/s, ERA5 detecta 29 %
+    núcleo  30- 60 hPa sobre el suelo: n  1475, rapidez 14.9 m/s, ERA5 detecta 45 %
+    núcleo  60-100 hPa sobre el suelo: n  1570, rapidez 14.9 m/s, ERA5 detecta 50 %
+    núcleo 100-150 hPa sobre el suelo: n   484, rapidez 15.4 m/s, ERA5 detecta 42 %
+    núcleo 150-250 hPa sobre el suelo: n   278, rapidez 14.9 m/s, ERA5 detecta 17 %
+
+(d) Giro nocturno a 925 hPa como fracción de f·12 h (mediana por estación; teórico = 100 %), noches que terminan en jet vs sin jet
+  clase A: 13 % (rango entre estaciones 6–28 %)
+  clase B: 18 % (rango entre estaciones 0–32 %)
+  clase C: 20 % (rango entre estaciones 0–35 %)
+
+(e) Sensibilidad al umbral de velocidad (11, 12 y 13 m/s; caída ≥ 6 m/s), sondeos 2006-2025 de Resistencia, Córdoba, Santa Rosa y Foz do Iguaçu
+  umbral 11 m/s: deep 5.9 %, shallow 19.4 % de los sondeos; cociente B/A 3.3; núcleo mediano de B 14.4 m/s; 17 % de B a menos de 1 m/s del umbral
+  umbral 12 m/s: deep 4.9 %, shallow 16.9 % de los sondeos; cociente B/A 3.4; núcleo mediano de B 14.9 m/s; 20 % de B a menos de 1 m/s del umbral
+  umbral 13 m/s: deep 4.0 %, shallow 14.2 % de los sondeos; cociente B/A 3.5; núcleo mediano de B 15.9 m/s; 22 % de B a menos de 1 m/s del umbral

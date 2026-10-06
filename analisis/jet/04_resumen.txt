@@ -1,0 +1,63 @@
+Jet del norte oct-mar 12 UTC: perfil con todos los niveles reportados vs solo niveles estándar
+             temporadas  frec_todos  frec_std  tend_todos  p_todos  tend_std  p_std  niveles_1980s  niveles_2010s
+sid                                                                                                              
+ARM00087155          31       20.00      8.77        4.45     0.01      1.80   0.08           6.50            8.0
+ARM00087344          34       16.23      8.50        2.23     0.00      0.94   0.04           4.50            8.0
+ARM00087418          21        0.69      0.06        0.28     0.01     -0.00   0.93           5.00            7.0
+ARM00087576          39       11.94      2.89        1.53     0.19     -0.16   0.54           6.00            8.0
+ARM00087623          39       18.91     11.47        5.43     0.00      4.09   0.00           6.00            7.0
+ARM00087715          23        5.62      2.84        1.14     0.06      0.57   0.00           5.00            7.0
+BRM00082022          18       51.06     15.59         NaN      NaN       NaN    NaN            NaN            8.0
+BRM00082193          26        5.43      2.07        2.36     0.00      1.20   0.01           8.00            8.0
+BRM00082244          17       19.08      4.25         NaN      NaN       NaN    NaN            NaN            8.0
+BRM00082332          17        9.64      2.65         NaN      NaN       NaN    NaN           3.25            7.0
+BRM00082599          22        0.00      0.00       -0.00     1.00     -0.00   1.00           6.00            8.0
+BRM00082824          24        3.44      1.13       -0.55     0.44     -0.04   0.53            NaN            7.0
+BRM00082983          19        1.32      0.22         NaN      NaN       NaN    NaN           4.50            8.0
+BRM00083208          26        6.83      1.51        1.35     0.01      0.22   0.08           5.00            8.0
+BRM00083362          22        7.64      4.29        1.48     0.31      0.34   0.76            NaN            7.0
+BRM00083378          35        6.68      1.50        1.13     0.02     -0.00   0.84           5.00            7.0
+BRM00083566          24        3.42      0.63        0.64     0.21     -0.00   0.05            NaN            7.0
+BRM00083612          29       10.61      5.71        2.96     0.03      1.43   0.06           3.00            8.0
+BRM00083746          26        1.68      0.27        0.31     0.07     -0.00   0.21           4.00            7.0
+BRM00083768          16       11.78      4.54         NaN      NaN       NaN    NaN            NaN            8.0
+BRM00083827          29       19.95     10.72        5.19     0.00      3.88   0.00            NaN            7.0
+BRM00083840          34        5.86      1.55        1.59     0.00      0.34   0.01           5.00            8.0
+BRM00083928          16       12.74      5.46         NaN      NaN       NaN    NaN            NaN            8.0
+CIM00085442          34        0.34      0.05       -0.00     0.40     -0.00   0.41           8.00            7.0
+CIM00085799          26        3.01      1.45        1.23     0.02      0.59   0.01           7.50            9.0
+COM00080222          13        0.39      0.00         NaN      NaN       NaN    NaN           8.00            5.0
+FGM00081405          22        4.48      0.31       -1.01     0.21     -0.00   0.95           4.00            6.0
+
+Estaciones con tendencia positiva significativa: todos los niveles 11/27; niveles estándar 7/27
+Mediana de tendencias (pp/déc): todos +1.29; estándar +0.28
+
+Cambios de fuente dominante por estación:
+sid
+ARM00087155    1991:ncdc6322;1993:usaf-ds3;2000:ncdc-gts;2005...
+ARM00087344    1991:ncdc6322;1992:usaf-ds3;1999:ncdc6314;2000...
+ARM00087418    1991:ncdc6322;1993:usaf-ds3;2000:ncdc-gts;2005...
+ARM00087576    1990:ncdc6322;1994:usaf-ds3;2000:ncdc-gts;2005...
+ARM00087623    1992:ncdc6322;1994:usaf-ds3;2000:ncdc-gts;2005...
+ARM00087715            1992:ncdc6322;1994:usaf-ds3;2000:ncdc-gts
+BRM00082022                          2006:usaf-ds3;2007:ncdc-gts
+BRM00082193            1991:ncdc6322;1993:usaf-ds3;2000:ncdc-gts
+BRM00082244                                                     
+BRM00082332    1991:ncdc6322;1994:usaf-ds3;2001:ncdc-gts;2005...
+BRM00082599    1991:ncdc6322;1992:usaf-ds3;2001:ncdc-gts;2006...
+BRM00082824    1994:usaf-ds3;2000:ncdc-gts;2005:usaf-ds3;2007...
+BRM00082983    1999:ncdc6314;2000:ncdc-gts;2005:usaf-ds3;2006...
+BRM00083208            1991:ncdc6322;1994:usaf-ds3;2000:ncdc-gts
+BRM00083362            2000:ncdc-gts;2005:usaf-ds3;2007:ncdc-gts
+BRM00083378    1991:ncdc6322;1994:usaf-ds3;2001:ncdc-gts;2005...
+BRM00083566            2000:ncdc-gts;2005:usaf-ds3;2007:ncdc-gts
+BRM00083612    1991:ncdc6322;1995:usaf-ds3;2000:ncdc-gts;2005...
+BRM00083746    1991:ncdc6322;1994:usaf-ds3;2000:ncdc-gts;2005...
+BRM00083768                                                     
+BRM00083827            2001:ncdc-gts;2005:usaf-ds3;2007:ncdc-gts
+BRM00083840    1991:ncdc6322;1994:usaf-ds3;1998:ncdc6314;1999...
+BRM00083928                                        2007:ncdc-gts
+CIM00085442    1990:ncdc6322;1998:ncdc6314;2000:ncdc-gts;2005...
+CIM00085799    1987:usaf-ds3;1990:ncdc6322;1994:usaf-ds3;2000...
+COM00080222                          1993:usaf-ds3;2011:ncdc-gts
+FGM00081405                                        2000:ncdc-gts

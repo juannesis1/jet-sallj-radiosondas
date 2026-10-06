@@ -1,0 +1,67 @@
+ERA5 disponible: temporadas 1979-2026 (48)
+
+Criterio fijos: frecuencia obs / ERA5 (%), POD, FAR por período
+  Campo Grande  1980-1995: obs   2.4  ERA5   0.7  POD 0.03  FAR 0.90  n 1357
+  Campo Grande  1996-2010: obs   2.1  ERA5   1.5  POD 0.26  FAR 0.64  n 1841
+  Campo Grande  2011-2025: obs   3.9  ERA5   2.0  POD 0.37  FAR 0.28  n 1961
+  Cuiabá        1996-2010: obs   1.8  ERA5   0.4  POD 0.14  FAR 0.43  n 1579
+  Cuiabá        2011-2025: obs   1.4  ERA5   0.5  POD 0.35  FAR 0.11  n 1670
+  Córdoba       1980-1995: obs   5.3  ERA5   5.3  POD 0.42  FAR 0.58  n 2303
+  Córdoba       1996-2010: obs   4.8  ERA5   5.6  POD 0.68  FAR 0.42  n 1796
+  Córdoba       2011-2025: obs   5.2  ERA5   6.7  POD 0.76  FAR 0.41  n 2087
+  Ezeiza        1980-1995: obs   1.8  ERA5   0.6  POD 0.24  FAR 0.21  n 2545
+  Ezeiza        1996-2010: obs   1.0  ERA5   0.6  POD 0.54  FAR 0.07  n 2471
+  Ezeiza        2011-2025: obs   1.0  ERA5   0.5  POD 0.43  FAR 0.18  n 2036
+  Foz           1980-1995: obs   3.2  ERA5   4.1  POD 0.86  FAR 0.33  n 220
+  Foz           1996-2010: obs   3.8  ERA5   3.1  POD 0.62  FAR 0.26  n 1719
+  Foz           2011-2025: obs   4.6  ERA5   2.5  POD 0.40  FAR 0.24  n 2362
+  Londrina      1980-1995: obs  10.0  ERA5   6.7  POD 0.67  FAR 0.00  n 30
+  Londrina      1996-2010: obs   2.4  ERA5   2.9  POD 0.46  FAR 0.62  n 548
+  Londrina      2011-2025: obs   3.3  ERA5   2.6  POD 0.47  FAR 0.40  n 2327
+  Porto Velho   1980-1995: obs   0.4  ERA5   0.0  POD 0.00  FAR 0.00  n 512
+  Porto Velho   1996-2010: obs   1.1  ERA5   0.2  POD 0.14  FAR 0.33  n 1315
+  Porto Velho   2011-2025: obs   0.4  ERA5   0.2  POD 0.18  FAR 0.60  n 2589
+  Resistencia   1980-1995: obs   5.0  ERA5   2.1  POD 0.22  FAR 0.48  n 2306
+  Resistencia   1996-2010: obs   4.3  ERA5   3.0  POD 0.38  FAR 0.44  n 2097
+  Resistencia   2011-2025: obs   5.2  ERA5   4.3  POD 0.71  FAR 0.14  n 2431
+  Santa Rosa    1980-1995: obs   3.5  ERA5   1.5  POD 0.24  FAR 0.43  n 2047
+  Santa Rosa    1996-2010: obs   2.3  ERA5   1.7  POD 0.64  FAR 0.11  n 2139
+  Santa Rosa    2011-2025: obs   4.2  ERA5   3.6  POD 0.57  FAR 0.34  n 2139
+  Uruguaiana    1980-1995: obs   0.0  ERA5   0.0  POD 0.00  FAR 0.00  n 11
+  Uruguaiana    1996-2010: obs   2.4  ERA5   0.9  POD 0.21  FAR 0.43  n 789
+  Uruguaiana    2011-2025: obs   2.6  ERA5   1.3  POD 0.39  FAR 0.20  n 1987
+  Vilhena       1980-1995: obs   0.7  ERA5   0.1  POD 0.17  FAR 0.00  n 922
+  Vilhena       1996-2010: obs   0.9  ERA5   0.3  POD 0.25  FAR 0.25  n 1343
+  Vilhena       2011-2025: obs   1.0  ERA5   0.3  POD 0.18  FAR 0.33  n 2279
+
+Criterio perfil: frecuencia obs / ERA5 (%), POD, FAR por período
+  Campo Grande  1980-1995: obs   6.1  ERA5   2.0  POD 0.04  FAR 0.89  n 914
+  Campo Grande  1996-2010: obs   6.6  ERA5   3.0  POD 0.21  FAR 0.52  n 1559
+  Campo Grande  2011-2025: obs  13.8  ERA5   4.1  POD 0.28  FAR 0.06  n 1904
+  Cuiabá        1996-2010: obs   6.7  ERA5   1.5  POD 0.18  FAR 0.21  n 1594
+  Cuiabá        2011-2025: obs   8.7  ERA5   2.0  POD 0.22  FAR 0.06  n 1661
+  Córdoba       1980-1995: obs  11.6  ERA5   7.5  POD 0.33  FAR 0.48  n 1503
+  Córdoba       1996-2010: obs  15.7  ERA5   7.3  POD 0.39  FAR 0.15  n 1780
+  Córdoba       2011-2025: obs  19.5  ERA5   8.3  POD 0.40  FAR 0.05  n 2044
+  Ezeiza        1980-1995: obs   7.7  ERA5   6.9  POD 0.52  FAR 0.42  n 2001
+  Ezeiza        1996-2010: obs  10.4  ERA5   5.5  POD 0.41  FAR 0.21  n 2342
+  Ezeiza        2011-2025: obs  10.8  ERA5   5.2  POD 0.41  FAR 0.15  n 1725
+  Foz           1980-1995: obs  10.0  ERA5  10.0  POD 0.55  FAR 0.45  n 200
+  Foz           1996-2010: obs  16.3  ERA5  13.1  POD 0.59  FAR 0.27  n 1726
+  Foz           2011-2025: obs  24.3  ERA5  11.9  POD 0.46  FAR 0.07  n 2353
+  Londrina      1996-2010: obs  10.3  ERA5   2.5  POD 0.13  FAR 0.46  n 522
+  Londrina      2011-2025: obs   9.4  ERA5   3.2  POD 0.23  FAR 0.32  n 2225
+  Porto Velho   1980-1995: obs   0.4  ERA5   0.0  POD 0.00  FAR 0.00  n 226
+  Porto Velho   1996-2010: obs   3.8  ERA5   0.2  POD 0.04  FAR 0.00  n 1223
+  Porto Velho   2011-2025: obs   3.0  ERA5   0.2  POD 0.04  FAR 0.25  n 2358
+  Resistencia   1980-1995: obs  11.1  ERA5   6.3  POD 0.35  FAR 0.38  n 1515
+  Resistencia   1996-2010: obs  15.7  ERA5   9.3  POD 0.47  FAR 0.21  n 1767
+  Resistencia   2011-2025: obs  18.8  ERA5  12.3  POD 0.61  FAR 0.07  n 2138
+  Santa Rosa    1980-1995: obs  14.3  ERA5  15.3  POD 0.77  FAR 0.28  n 1507
+  Santa Rosa    1996-2010: obs  15.0  ERA5  16.2  POD 0.76  FAR 0.30  n 2149
+  Santa Rosa    2011-2025: obs  27.2  ERA5  19.1  POD 0.67  FAR 0.05  n 2142
+  Uruguaiana    1996-2010: obs   9.8  ERA5   4.4  POD 0.31  FAR 0.31  n 660
+  Uruguaiana    2011-2025: obs  11.6  ERA5   4.3  POD 0.34  FAR 0.09  n 1892
+  Vilhena       1980-1995: obs   3.1  ERA5   0.3  POD 0.04  FAR 0.50  n 751
+  Vilhena       1996-2010: obs   5.6  ERA5   0.7  POD 0.11  FAR 0.11  n 1258
+  Vilhena       2011-2025: obs   6.3  ERA5   0.7  POD 0.11  FAR 0.06  n 2195

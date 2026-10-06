@@ -1,0 +1,12 @@
+(a) Estaciones IGRA a menos de 1.5° de los sitios de Montini et al. (2019)
+  Santa Cruz de la Sierra: SANTA CRUZ/EL TROMPILLO 1944-2004 n=1454
+  Mariscal Estigarribia: MARISCAL ESTIGARRIBIA 2001-2005 n=708
+
+(b) Rama norte: sondeos de 12 UTC por década, último año, jet con niveles fijos (sin restricción de dirección)
+  Maracay                  por década {1970: 163, 1980: 1833, 1990: 1145, 2000: 249, 2010: 166}; último año 2014; jet antes/después de 1990 0.4/1.1 %; sin tendencia (13 temporadas)
+  San Antonio del Táchira  por década {1970: 152, 1980: 1464, 1990: 431, 2000: 215, 2010: 386}; último año 2013; jet antes/después de 1990 2.2/3.9 %; sin tendencia (10 temporadas)
+  Las Gaviotas             por década {1970: 267, 1980: 1407, 1990: 216, 2000: 587}; último año 2003; jet antes/después de 1990 11.1/30.9 %; sin tendencia (5 temporadas)
+  Riohacha                 por década {1990: 763, 2000: 1288, 2010: 872}; último año 2016; jet antes/después de 1990 nan/8.4 %; sin tendencia (9 temporadas)
+  Curaçao                  por década {1970: 345, 1980: 3535, 1990: 2938, 2000: 2676, 2010: 2583, 2020: 1165}; último año 2025; jet antes/después de 1990 5.6/6.1 %; +0.30 pp/déc (p 0.55, 41 temporadas)
+  Trinidad                 por década {1970: 260, 1980: 3469, 1990: 3263, 2000: 2927, 2010: 2983, 2020: 1398}; último año 2025; jet antes/después de 1990 4.7/6.1 %; +0.51 pp/déc (p 0.10, 44 temporadas)
+  Boa Vista                por década {1970: 196, 1980: 694, 2000: 1242, 2010: 3355, 2020: 1974}; último año 2025; jet antes/después de 1990 16.0/6.0 %; -1.68 pp/déc (p 0.15, 22 temporadas)
